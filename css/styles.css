@@ -325,13 +325,9 @@ img {
 }
 
 .team-list-container {
-    padding: 33px 0 0 0;
+    padding: 32px 0 ;
 }
 
-.soc-container {
-   
-    padding: 32px 0;
-}
 
 .soc-list{ display: flex;
     align-items: center;
@@ -493,12 +489,12 @@ img {
 
 .footer-soc-text {margin-bottom: 16px;}
 
-.footer-soc-link:hover
+.footer-soc-link:hover,
+.footer-soc-link:focus
  {
     background-color: #31d0aa;
 }
 
-.footer-soc-link:focus {background-color: #31d0aa;}
 
 .footer-soc-icon {
     fill: #f4f4fd;
